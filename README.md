@@ -1,3 +1,2 @@
 ### Daily scripts for bioinformatics
-
-###### correlation
+###### calculate correlation

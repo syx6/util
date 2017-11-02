@@ -29,8 +29,8 @@ def main(file1, file2):
                 if cir in cir_srptm:
                     linear_gene = counts[gene]
                     circrna = cir_srptm[cir]
-                    #print linear_gene, circrna, stats.pearsonr(linear_gene ,circrna)
                     print cir + '\t' + gene + '\t' + str(stats.pearsonr(linear_gene, circrna)[0]) + '\t' + str(stats.pearsonr(linear_gene, circrna)[1])
+                    #cal correlation coefficient
 
 if __name__ == '__main__':
     main(sys.argv[1], sys.argv[2])
